@@ -6,8 +6,6 @@ def kebabize(s):
         if i.isupper():
             i = "-"+i.lower()
         new_list.append(i)
-    # add it all together   
-    new_list = ''.join(new_list)
-    # remove numbers and - at start of string
+ # remove numbers and - at start of string
     done = ''.join(i for i in new_list if not i.isdigit())
     return done.strip('- ')
