@@ -9,4 +9,4 @@ def longest(s):
 # Better way:
 
 def longest(s):
-	return max(len(i) for i in words)
+	return max(len(i) for i in s)
