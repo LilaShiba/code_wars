@@ -40,7 +40,7 @@ def letter_pattern(words):
 
     
     x[0] if x.count(x[0]) == len(x)
-    # return the iterated x if it's count is in each word thanks to the handy zip function
+    # return the iterated x if it's count is in each word thanks to the handy zip and * (unpacking) function
     # zip deals with iterating over sets
 
 
